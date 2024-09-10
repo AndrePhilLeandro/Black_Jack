@@ -1,11 +1,12 @@
-package model;
+package models;
 
 public class PlayerModel {
     private String name;
     private int sum;
-    private boolean isActive;
+    private boolean isActiveInGame;
 
     public PlayerModel(){
+        //construtor vazio
     }
 
     public PlayerModel(String name, int sum){
@@ -29,10 +30,10 @@ public class PlayerModel {
     }
 
     public boolean getIsActive(){
-        return isActive;
+        return isActiveInGame;
     }
 
-    public void setIsActive(boolean isActive){
-        this.isActive = isActive;
+    public void setIsActive(boolean isActiveInGame){
+        this.isActiveInGame = isActiveInGame;
     }
 }

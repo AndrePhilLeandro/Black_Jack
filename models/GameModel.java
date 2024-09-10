@@ -1,4 +1,4 @@
-package model;
+package models;
 
 public class GameModel {
     private int numberOfPlayers;
@@ -6,7 +6,7 @@ public class GameModel {
     private String winner;
 
     public GameModel(){
-
+        //construtor vazio
     }
 
     public GameModel(int numberOfPlayers){
